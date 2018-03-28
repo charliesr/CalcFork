@@ -16,7 +16,14 @@ namespace CalcFork.Tests
         [TestMethod()]
         public void SumaTest()
         {
-            Assert.IsFalse(iCalculdora.Suma(2,7) == 10);
+            Assert.IsFalse(iCalculdora.Suma(2, 7) == 10);
+        }
+
+        [TestMethod()]
+        public void RestaTest()
+        {
+            Assert.IsFalse(iCalculdora.Resta(5, 4) == 5);
+            Assert.IsTrue(iCalculdora.Resta(5, 5) == 0);
         }
     }
 }

@@ -9,5 +9,6 @@ namespace CalcFork
     public interface ICalculadora
     {
         int Suma(int num1, int num2);
+        int Resta(int num1, int num2);
     }
 }
