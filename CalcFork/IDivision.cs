@@ -8,6 +8,6 @@ namespace CalcFork
 {
     public interface IDivision
     {
-        int Division(int num1 , int num2);
+        int CalDivision(int num1 , int num2);
     }
 }

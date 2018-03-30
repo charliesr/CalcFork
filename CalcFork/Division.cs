@@ -6,8 +6,11 @@ using System.Threading.Tasks;
 
 namespace CalcFork
 {
-    class Division
+    public class Division : IDivision
     {
-
+        public  int CalDivision(int num1, int num2)
+        {
+            return num1/num2;
+        }
     }
 }
